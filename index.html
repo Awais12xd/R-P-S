@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R - P - S GAME</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="heading d-flex justify-content-center align-items-center py-4 bg-primary text-light">
+        <h1>ROCK PAPER SCISSORS</h1>
+    </div>
+    <div class="container-fluid game-con d-flex justify-content-center align-items-center flex-wrap py-4">
+        <div class="d-flex justify-content-center align-items-center rounded-circle option" id="rock">
+            <img src="rock.png" alt="">
+        </div>
+        <div class="d-flex justify-content-center align-items-center rounded-circle option" id="paper">
+            <img src="paper.png" alt="">
+        </div>
+        <div class="d-flex justify-content-center align-items-center rounded-circle option" id="scissors">
+            <img src="scissors.png" alt="">
+        </div>
+    </div>
+    <div class="container my-5 d-flex justify-content-around align-items-center ">
+        <div class="user-score-con ">
+            <p class="user-score lead fw-bold text-center">0</p>
+            <p class="lead fw-bold text-success">YOU</p>
+        </div>
+        <div class="comp-score-con ">
+            <p class="comp-score lead fw-bold text-center">0</p>
+            <p class="lead fw-bold text-danger">COMP</p>
+        </div>
+    </div>
+    <div class="info-btn py-3 d-flex justify-content-around align-items-center flex-wrap">
+        <button type="button" class="infoBtn mb-3">Choose any Option</button>
+        <button type="button" class=" resetbtn mb-3">Reset the score</button>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
